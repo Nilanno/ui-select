@@ -840,7 +840,7 @@
           }
 
           if (!contains && !$select.clickTriggeredSelect) {
-            $select.close();
+            $select.close(true);
             scope.$digest();
           }
           $select.clickTriggeredSelect = false;
